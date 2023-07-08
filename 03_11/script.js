@@ -3,6 +3,8 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new
  */
 
+
+//create the class and call it to create an instance of it called everydayPack
 function Backpack(
   name,
   volume,
@@ -30,6 +32,7 @@ function Backpack(
   };
 }
 
+//create new instance of Backpack Object
 const everydayPack = new Backpack(
   "Everyday Backpack",
   30,
@@ -39,3 +42,5 @@ const everydayPack = new Backpack(
   26,
   false
 );
+
+console.log(everydayPack);
