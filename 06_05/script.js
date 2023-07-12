@@ -3,6 +3,9 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
  */
 
+
+//always use let for mutable vars
+//use const to keep constant
 let color = "purple";
 
 document.querySelector(".left").style.backgroundColor = color;
